@@ -1,5 +1,5 @@
 {
-  "name": "Google Docs Compactor",
+  "name": "Compactor for Google Docs",
   "version": "0.1",
   "description": "Makes Google Documents default to opening in compact view.",
   "icons": { "128": "icon_128.png" },
