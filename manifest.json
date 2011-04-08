@@ -1,0 +1,10 @@
+{
+  "name": "Google Docs Compactor",
+  "version": "0.1",
+  "description": "Makes Google Documents default to opening in compact view.",
+  "icons": { "128": "icon_128.png" },
+  "content_scripts": [{ "matches": ["*://*.google.com/*"], 
+  		       "js": ["compactor_content_script.js"],
+		       "include_globs" : ["*://docs*.google.com/*",
+		       		       	 "*://spreadsheet*.google.com/*"]}]		   
+}
